@@ -1,0 +1,126 @@
+.sub-heading {
+    max-width:1220px;
+    margin-bottom:0;
+    font-family:'Changa One',Impact,sans-serif;
+    font-size:42px;
+    line-height:136%;
+    font-weight:400;
+    text-align:center;
+    color: #f5d371;
+}
+
+/* .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+.hierarchy-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.hierarchy-title-font {
+    font-family:'Changa One',Impact,sans-serif;
+    font-size:24px;
+    line-height:136%;
+    font-weight:700;
+    color: #222;
+    margin-bottom: 1vh;
+}
+
+/* .hierarchy-description {
+    margin-right: 20px;
+} */
+
+.hierarchy-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .hierarchy-chart {
+    width: 40%;
+} */
+
+.hierarchy-content {
+    text-align: left!important;
+    font-family:'Changa One',Impact,sans-serif;
+    margin-left: 10px;
+    font-size:18px;
+    font-weight:500;
+    line-height: 110%;
+    color: #333;
+}
+
+.fa-circle {
+    /* display: flex; */
+    font-size: 14px;
+}
+
+.roadmap-sub {
+    font-size: 32px!important;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.svg-img {
+    width: 6%;
+    filter: invert(6%) sepia(47%) saturate(16%) hue-rotate(331deg) brightness(5%) contrast(83%);
+}
+
+.hierarchy-block {
+    margin-bottom: 3vh;
+}
+
+a {
+    border-bottom: none;
+}
+
+.team-image-caption {
+    margin: 0 auto;
+}
+
+.team-section {
+    padding-top: 25vh;
+}
+
+.discord-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.join-discord {
+    max-width:1220px;
+    margin-bottom:0;
+    font-family:'Changa One',Impact,sans-serif;
+    font-size:42px;
+    line-height:136%;
+    font-weight:400;
+    text-align:center;
+    color: #222;
+}
+
+.black-red {
+    color: #600600;
+}
+
+.join-discord-text {
+    max-width:1220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:20px;
+    line-height:120%;
+    font-weight:400;
+    text-align:center;
+    color: #333;
+}
+
+.link-btn {
+    margin-top: 20px;
+    font-size: 32px;
+    background-color: #2235fd;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
