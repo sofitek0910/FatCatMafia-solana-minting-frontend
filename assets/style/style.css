@@ -2,11 +2,67 @@
     max-width:1220px;
     margin-bottom:0;
     font-family:'Changa One',Impact,sans-serif;
-    font-size:42px;
+    font-size:45px;
     line-height:136%;
     font-weight:400;
     text-align:center;
-    color: #f5d371;
+    color: #222;
+}
+
+.heading-hero {
+    color: #fff;
+}
+
+.flex-hero {
+    background: url(../images/game_preview.jpg);
+    background-size: cover;
+}
+
+.carousel-wrapper {
+    /* width: 1000px; */
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+}
+  
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+}
+  
+.owl-carousel .nav-button {
+    height: 50px;
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 110px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.25;
+}
+
+.owl-carousel .owl-prev {
+    left: -35px;
+}
+
+.owl-carousel .owl-next {
+    right: -35px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #ffffff;
+    font-size: 40px!important;
+    background: #000000;
+    border-radius: 3px;
+}
+
+
+.highlight-text {
+    
 }
 
 /* .row {
@@ -51,6 +107,10 @@
     font-weight:500;
     line-height: 110%;
     color: #333;
+}
+
+.mrb-5vw {
+    margin-bottom: 3vw;
 }
 
 .fa-circle {
@@ -101,6 +161,10 @@ a {
     color: #222;
 }
 
+.font-42 {
+    font-size: 42px!important;
+}
+
 .black-red {
     color: #600600;
 }
@@ -119,8 +183,33 @@ a {
 .link-btn {
     margin-top: 20px;
     font-size: 32px;
-    background-color: #2235fd;
+    background-color: #4E4F50 ;
     color: #fff;
     padding: 8px 12px;
     border-radius: 5px;
 }
+
+@media only screen and (max-width:1025px) {
+    .owl-carousel-wrapper {
+        max-width: 700px!important;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .owl-carousel-wrapper {
+        max-width: 550px!important;
+    }
+}
+
+@media only screen and (max-width:635px) {
+    .owl-carousel-wrapper {
+        max-width: 480px!important;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .owl-carousel-wrapper {
+        max-width: 400px!important;
+    }
+}
+
